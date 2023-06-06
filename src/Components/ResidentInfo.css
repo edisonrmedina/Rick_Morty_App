@@ -1,0 +1,37 @@
+.resident-info {
+    display: inline-block;
+    border: 2px solid #8EFF8B;
+    text-align: center;
+    max-width:fit-content;
+  }
+
+
+.resident-info img {
+    max-width: 100%;
+  }
+  
+  .resident-info-description {
+    margin-bottom: 10px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .resident-info-description span {
+    font-weight: bold;
+  }
+
+  .status-circle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 3px;
+  }
+  
+  .status-circle.dead {
+    background-color: red;
+  }
+  
+  .status-circle:not(.dead) {
+    background-color: green;
+  }

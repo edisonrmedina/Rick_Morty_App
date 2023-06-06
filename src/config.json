@@ -1,0 +1,5 @@
+{
+    "API_KEY": "mi_clave_de_api",
+    "URLBASE" : "https://rickandmortyapi.com/",
+    "URLLOCATION" : "api/location/"
+}

@@ -1,0 +1,19 @@
+.container-location {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .container-location-info {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Agrega espaciado horizontal entre los elementos */
+    margin-top: 10px; /* Agrega margen superior para separarlo del título */
+   }
+  
+  .container-location-info span {
+    display: inline;
+    line-height: 1; /* Ajusta el espaciado vertical */
+  }
+  

@@ -1,0 +1,11 @@
+h1,h2,h3 {
+    font-weight: bold;
+    color: #8EFF8B;
+}
+
+body{
+    background-image: url("../src/assets/img/background.svg");
+    color: white;
+    margin: 0 auto;
+    font-family: 'Fira Code', 'Lato', 'Open Sans', 'Poppins', sans-serif;
+}

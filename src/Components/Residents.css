@@ -1,0 +1,26 @@
+.container-resident {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-resident h1 {
+    text-align: left;
+}
+
+.data-resident {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+}
+
+@media (max-width: 1024px) {
+    .data-resident {
+      grid-template-columns: 50% 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .data-resident {
+      grid-template-columns: 100%;
+    }
+  }
